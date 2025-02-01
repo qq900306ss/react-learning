@@ -6,7 +6,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <>
-    <Vote title='React 投票' >
+    <Vote title='React 投票' num={15} >
 
     </Vote>
   </>
